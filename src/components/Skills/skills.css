@@ -63,6 +63,10 @@
 .skills__level{
     font-size: var(--tiny-font-size);
 }
+
+.logo{
+    padding: 0 200px 0 200px;
+}
 /* BREAKPOINTS */
 /* for large device */
 @media screen and (max-width: 992px){
