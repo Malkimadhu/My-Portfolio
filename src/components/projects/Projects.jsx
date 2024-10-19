@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import "./projects.css";
+import pic1 from "../../assets/projects/gardenguru.png";
+import pic2 from "../../assets/projects/cstello.png";
 
 const Projects = () => {
-  const [toggleState,setToggleState] = useState(0);
+  const [toggleState, setToggleState] = useState(0);
 
   const toggleTab = (index) => {
     setToggleState(index);
-  }
+  };
   return (
     <section className="projects section" id="projects">
       <h2 className="section__title">Projects</h2>
@@ -14,21 +16,43 @@ const Projects = () => {
 
       <div className="projects__container container grid">
         <div className="projects__content">
+          <img src={pic1}></img>
           <div>
-            <i className="uil uil-web-grid projects__icon"></i>
             <h3 className="projects__title">
-              GardenGuru <br /> Webapp
+              {/* <i className="uil uil-web-grid projects__icon"></i> */}
+              GardenGURU Web Application
             </h3>
+            <p className="project__des">
+              Garden Guru is a web application designed for gardening
+              enthusiasts to help them make informed decisions about planting
+              based on their local environment. With tailored recommendations,
+              users can explore the best plants to grow in their region and
+              enjoy numerous benefits such as personalized tips, seasonal
+              planting suggestions, and guidance on sustainable gardening
+              practices. Whether you're a beginner or a seasoned gardener,
+              Garden Guru provides the perfect tools to create and maintain a
+              thriving garden.
+            </p>
+          </div>
+          <div className="button-div">
+            <span className="projects__button" onClick={() => toggleTab(1)}>
+              View More
+              <i className="uil uil-arrow-right projects__button-icon"></i>
+            </span>
           </div>
 
-          <span className="projects__button" onClick={() => toggleTab(1) }>
-            View More
-            <i className="uil uil-arrow-right projects__button-icon"></i>
-          </span>
-
-          <div className={toggleState === 1 ? "projects__modal active-modal" : "projects__modal"}>
+          <div
+            className={
+              toggleState === 1
+                ? "projects__modal active-modal"
+                : "projects__modal"
+            }
+          >
             <div className="projects__modal-content">
-              <i onClick={() => toggleTab(0)} className="uil uil-times projects__modal-close"></i>
+              <i
+                onClick={() => toggleTab(0)}
+                className="uil uil-times projects__modal-close"
+              ></i>
 
               <h3 className="projects__modal-title">GardenGuru</h3>
               <p className="projects__modal-description">
@@ -71,22 +95,45 @@ const Projects = () => {
         </div>
 
         <div className="projects__content">
+          <img src={pic2}></img>
           <div>
-            <i className="uil uil-arrow projects__icon"></i>
             <h3 className="projects__title">
-              CASTELLO <br /> Webapp
+              {/* <i className="uil uil-web-grid projects__icon"></i> */}
+              Castello Hotel Web Application
             </h3>
+            <p className="project__des">
+              The Castello Hotel web application is a user-friendly platform
+              tailored for seamless hotel management and guest interaction.
+              Guests can easily book rooms, order food, and explore hotel
+              services, all from the comfort of their device. With a clean and
+              intuitive interface, the application simplifies the entire booking
+              process while providing personalized options for an enhanced stay.
+              Whether it's managing reservations or accessing hotel amenities,
+              Castello Hotel makes everything convenient, ensuring both guests
+              and hotel staff have a smooth and efficient experience.
+            </p>
           </div>
-          <span className="projects__button" onClick={() => toggleTab(2) }>
-            View More
-            <i className="uil uil-arrow-right projects__button-icon"></i>
-          </span>
+          <div className="button-div">
+            <span className="projects__button" onClick={() => toggleTab(1)}>
+              View More
+              <i className="uil uil-arrow-right projects__button-icon"></i>
+            </span>
+          </div>
 
-          <div className={toggleState === 2 ? "projects__modal active-modal" : "projects__modal"}>
+          <div
+            className={
+              toggleState === 1
+                ? "projects__modal active-modal"
+                : "projects__modal"
+            }
+          >
             <div className="projects__modal-content">
-              <i onClick={() => toggleTab(0)} className="uil uil-times projects__modal-close"></i>
+              <i
+                onClick={() => toggleTab(0)}
+                className="uil uil-times projects__modal-close"
+              ></i>
 
-              <h3 className="projects__modal-title">CASTELLO</h3>
+              <h3 className="projects__modal-title">GardenGuru</h3>
               <p className="projects__modal-description">
                 Here, you'll find a collection of projects that reflect my
                 journey and growth as a Computer Science and Technology student
@@ -127,22 +174,45 @@ const Projects = () => {
         </div>
 
         <div className="projects__content">
+          <img src={pic1}></img>
           <div>
-            <i className="uil uil-edit projects__icon"></i>
             <h3 className="projects__title">
-              TrendHire <br /> Webapp
+              {/* <i className="uil uil-web-grid projects__icon"></i> */}
+              GardenGURU Web Application
             </h3>
+            <p className="project__des">
+              Garden Guru is a web application designed for gardening
+              enthusiasts to help them make informed decisions about planting
+              based on their local environment. With tailored recommendations,
+              users can explore the best plants to grow in their region and
+              enjoy numerous benefits such as personalized tips, seasonal
+              planting suggestions, and guidance on sustainable gardening
+              practices. Whether you're a beginner or a seasoned gardener,
+              Garden Guru provides the perfect tools to create and maintain a
+              thriving garden.
+            </p>
           </div>
-          <span className="projects__button" onClick={() => toggleTab(3) }>
-            View More
-            <i className="uil uil-arrow-right projects__button-icon"></i>
-          </span>
+          <div className="button-div">
+            <span className="projects__button" onClick={() => toggleTab(1)}>
+              View More
+              <i className="uil uil-arrow-right projects__button-icon"></i>
+            </span>
+          </div>
 
-          <div className={toggleState === 3 ? "projects__modal active-modal" : "projects__modal"}>
+          <div
+            className={
+              toggleState === 1
+                ? "projects__modal active-modal"
+                : "projects__modal"
+            }
+          >
             <div className="projects__modal-content">
-              <i onClick={() => toggleTab(0)} className="uil uil-times projects__modal-close"></i>
+              <i
+                onClick={() => toggleTab(0)}
+                className="uil uil-times projects__modal-close"
+              ></i>
 
-              <h3 className="projects__modal-title">TrendHire</h3>
+              <h3 className="projects__modal-title">GardenGuru</h3>
               <p className="projects__modal-description">
                 Here, you'll find a collection of projects that reflect my
                 journey and growth as a Computer Science and Technology student

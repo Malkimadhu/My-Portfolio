@@ -71,9 +71,14 @@
   flex-wrap: wrap; /* Wrap logos if the screen is small */
 }
 
+.logo{
+  text-align: justify;
+}
+
 .logo__image {
   cursor: pointer;
   margin: 2px;
+  padding-top: 20px;
 }
 
 .logo__image:hover{

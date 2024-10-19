@@ -27,26 +27,32 @@ const Skills = () => {
     <section className="Skills section" id="Skills">
       <h2 className="section__title">Skills</h2>
       <span className="section__subtitle">My Technical Level</span>
-
-<section className="logo">
-      <Logo name={html} logo="HTML5 Logo" width={100} height={100}/>
-      <Logo name={css} logo="css Logo" width={100} height={100}/>
-      <Logo name={react} logo="React Logo" width={100} height={100}/>
-      <Logo name={js} logo="Java Script Logo" width={100} height={100}/>
-      <Logo name={boostarp} logo="Boostrap Logo" width={100} height={100}/>
-      <Logo name={git} logo="Git hub Logo" width={100} height={100}/>
-      <Logo name={gitt} logo="Git Logo" width={100} height={100}/>
-      <Logo name={figma} logo="Figma Logo" width={100} height={100}/>
-      <Logo name={postman} logo="Postman Logo" width={100} height={100}/>
-      <Logo name={canva} logo="Cnva Logo" width={100} height={100}/>
-      <Logo name={php} logo="Php Logo" width={100} height={100}/>
-      <Logo name={java} logo="Java Logo" width={100} height={100}/>
-      <Logo name={spring} logo="Spring Logo" width={100} height={100}/>
-      <Logo name={sql} logo="MySQL Logo" width={100} height={100}/>
-      <Logo name={python} logo="Python Logo" width={100} height={100}/>
-      <Logo name={dj} logo="Django Logo" width={100} height={100}/>
-      <Logo name={vs} logo="VSCode Logo" width={100} height={100}/>
-      <Logo name={ij} logo="Intelij IDEA Logo" width={100} height={100}/>
+     
+      <section className="logo">
+      <p>
+        I have skills in both front-end and back-end development. From designing
+        user-friendly websites with HTML, CSS, and React to working on
+        server-side tasks using PHP, Java, and Django, I’m always improving and
+        learning new things to build better web solutions.
+      </p>
+        <Logo name={html} logo="HTML5 Logo" width={100} height={100} />
+        <Logo name={css} logo="css Logo" width={100} height={100} />
+        <Logo name={react} logo="React Logo" width={100} height={100} />
+        <Logo name={js} logo="Java Script Logo" width={100} height={100} />
+        <Logo name={boostarp} logo="Boostrap Logo" width={100} height={100} />
+        <Logo name={git} logo="Git hub Logo" width={100} height={100} />
+        <Logo name={gitt} logo="Git Logo" width={100} height={100} />
+        <Logo name={figma} logo="Figma Logo" width={100} height={100} />
+        <Logo name={postman} logo="Postman Logo" width={100} height={100} />
+        <Logo name={canva} logo="Cnva Logo" width={100} height={100} />
+        <Logo name={php} logo="Php Logo" width={100} height={100} />
+        <Logo name={java} logo="Java Logo" width={100} height={100} />
+        <Logo name={spring} logo="Spring Logo" width={100} height={100} />
+        <Logo name={sql} logo="MySQL Logo" width={100} height={100} />
+        <Logo name={python} logo="Python Logo" width={100} height={100} />
+        <Logo name={dj} logo="Django Logo" width={100} height={100} />
+        <Logo name={vs} logo="VSCode Logo" width={100} height={100} />
+        <Logo name={ij} logo="Intelij IDEA Logo" width={100} height={100} />
       </section>
       <div className="skills__container container grid">
         <FrontEnd />
