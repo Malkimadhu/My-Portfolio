@@ -106,13 +106,14 @@ const Contact = () => {
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
-                backgroundColor: "black",
+                backgroundColor: "rgba(27, 182, 161, 1)",
                 color: "white",
                 border: "none",
                 borderRadius: "20px",
                 textDecoration: "none",
-                width: "150px",
+                width: "200px",
                 height: "60px",
+                marginTop: "58px"
               }}
             >
               Send Message

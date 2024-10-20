@@ -20,7 +20,7 @@ const Experience = () => {
                 ? "qualification__button qualification__active button--flex"
                 : "qualification__button button--flex"
             }
-            onClick={()=> toggleTab(1)}
+            onClick={() => toggleTab(1)}
           >
             <i className="uil uil-graduation-cap qualification__icon"></i>
             Education
@@ -32,7 +32,7 @@ const Experience = () => {
                 ? "qualification__button qualification__active button--flex"
                 : "qualification__button button--flex"
             }
-            onClick={()=> toggleTab(2)}
+            onClick={() => toggleTab(2)}
           >
             <i className="uil uil-briefcase-alt qualification__icon"></i>
             Experience
@@ -40,151 +40,170 @@ const Experience = () => {
         </div>
 
         <div className="qualification__sections">
-          <div
-            className={
-              toggleState === 1
-                ? "qualification__content qualification__content-active"
-                : "qualification__content"
-            }
-          >
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Undergraduate</h3>
-                <span className="qualification__subtitle">
-                  Uva Wellassa University of Sri Lanka
-                </span>
-                <div className="qualification__calander">
-                  <i class="uil uil-calendar-alt"></i> 2021-present
+          <section className="qualification__education">
+            <div
+              className={
+                toggleState === 1
+                  ? "qualification__content qualification__content-active"
+                  : "qualification__content"
+              }
+            >
+              <div className="qualification__data">
+                <div>
+                  <h3 className="qualification__title">Undergraduate</h3>
+                  <span className="qualification__subtitle">
+                    Uva Wellassa University of Sri Lanka
+                  </span>
+                  <div className="qualification__calander">
+                    <i class="uil uil-calendar-alt"></i> 2021-present
+                  </div>
+                </div>
+
+                <div>
+                  <span className="qualification__rounder"></span>
+                  <span className="qualification__line"></span>
                 </div>
               </div>
 
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
+              <div className="qualification__data">
+                <div></div>
 
-            <div className="qualification__data">
-              <div></div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">IT Diploma</h3>
-                <span className="qualification__subtitle">
-                  ESOFT Metro Campus
-                </span>
-                <div className="qualification__calander">
-                  <i class="uil uil-calendar-alt"></i> 2021 (6 months)
+                <div>
+                  <span className="qualification__rounder"></span>
+                  <span className="qualification__line"></span>
                 </div>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Traineer at BOC</h3>
-                <span className="qualification__subtitle">
-                  Bank of Cyelon - Kotiyakumbura
-                </span>
-                <div className="qualification__calander">
-                  <i class="uil uil-calendar-alt"></i> 2021 (6 months)
+                <div>
+                  <h3 className="qualification__title">IT Diploma</h3>
+                  <span className="qualification__subtitle">
+                    ESOFT Metro Campus
+                  </span>
+                  <div className="qualification__calander">
+                    <i class="uil uil-calendar-alt"></i> 2021 (6 months)
+                  </div>
                 </div>
               </div>
 
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div></div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">
-                  Adavnced Level - Physics Stream
-                </h3>
-                <span className="qualification__subtitle">
-                  Kegalu Balika Vidyalaya
-                </span>
-                <div className="qualification__calander">
-                  <i class="uil uil-calendar-alt"></i> 2017-2019
+              <div className="qualification__data">
+                <div>
+                  <h3 className="qualification__title">Traineer at BOC</h3>
+                  <span className="qualification__subtitle">
+                    Bank of Cyelon - Kotiyakumbura
+                  </span>
+                  <div className="qualification__calander">
+                    <i class="uil uil-calendar-alt"></i> 2021 (6 months)
+                  </div>
                 </div>
-              </div>
-            </div>
-          </div>
 
-          <div className={
-              toggleState === 2
-                ? "qualification__content qualification__content-active"
-                : "qualification__content"
-            }>
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">
-                  Technical Lead - Women in FOSS Commiunity UWU
-                </h3>
-                <span className="qualification__subtitle">
-                  Uva Wellassa University of Sri Lanka
-                </span>
-                <div className="qualification__calander">
-                  <i class="uil uil-calendar-alt"></i> 2023-2024
+                <div>
+                  <span className="qualification__rounder"></span>
+                  <span className="qualification__line"></span>
                 </div>
               </div>
 
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
+              <div className="qualification__data">
+                <div></div>
 
-            <div className="qualification__data">
-              <div></div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">
-                  Member of Editorial IEEE UWU
-                </h3>
-                <span className="qualification__subtitle">
-                  Uva Wellassa University of Sri Lanka
-                </span>
-                <div className="qualification__calander">
-                  <i class="uil uil-calendar-alt"></i> 2023-2024
+                <div>
+                  <span className="qualification__rounder"></span>
+                  <span className="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 className="qualification__title">
+                    Adavnced Level - Physics Stream
+                  </h3>
+                  <span className="qualification__subtitle">
+                    Kegalu Balika Vidyalaya
+                  </span>
+                  <div className="qualification__calander">
+                    <i class="uil uil-calendar-alt"></i> 2017-2019
+                  </div>
                 </div>
               </div>
             </div>
+          </section>
+          <section className="qualification__experience">
+            <div
+              className={
+                toggleState === 2
+                  ? "qualification__content qualification__content-active"
+                  : "qualification__content"
+              }
+            >
+              <div className="qualification__data">
+                <div>
+                  <h3 className="qualification__title">
+                    Technical Lead - Women in FOSS Commiunity UWU
+                  </h3>
+                  <span className="qualification__subtitle">
+                    Uva Wellassa University of Sri Lanka
+                  </span>
+                  <div className="qualification__calander">
+                    <i class="uil uil-calendar-alt"></i> 2023-2024
+                  </div>
+                </div>
 
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">
-                  Women in FOSS Core Member UWU
-                </h3>
-                <span className="qualification__subtitle">
-                  Uva Wellassa University of Sri Lanka
-                </span>
-                <div className="qualification__calander">
-                  <i class="uil uil-calendar-alt"></i> 2022-2023
+                <div>
+                  <span className="qualification__rounder "></span>
+                  <span className="qualification__line"></span>
                 </div>
               </div>
 
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
+              <div className="qualification__data">
+                <div></div>
+
+                <div>
+                  <span className="qualification__rounder"></span>
+                  <span className="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 className="qualification__title">
+                    Member of Editorial IEEE UWU
+                  </h3>
+                  <span className="qualification__subtitle">
+                    Uva Wellassa University of Sri Lanka
+                  </span>
+                  <div className="qualification__calander">
+                    <i class="uil uil-calendar-alt"></i> 2023-2024
+                  </div>
+                </div>
+              </div>
+
+              <div className="qualification__data">
+                <div>
+                  <h3 className="qualification__title">
+                    Women in FOSS Core Member UWU
+                  </h3>
+                  <span className="qualification__subtitle">
+                    Uva Wellassa University of Sri Lanka
+                  </span>
+                  <div className="qualification__calander">
+                    <i class="uil uil-calendar-alt"></i> 2022-2023
+                  </div>
+                </div>
+
+                <div>
+                  <span className="qualification__rounder"></span>
+                  <span className="qualification__line"></span>
+                </div>
               </div>
             </div>
-          </div>
+          </section>
         </div>
       </div>
+
+      <p className="qualification__description">
+        My qualifications include a well-rounded education and diverse
+        experiences. I completed my school education at Kegalu Balika Vidyalaya
+        and am currently pursuing a degree in Computer Science and Technology at
+        Uva Wellassa University. Alongside my academic journey, I have gained
+        valuable experience through various volunteer roles, including
+        contributing to initiatives like the IEEE UWU Student Branch and other
+        leadership activities. These experiences have sharpened my technical,
+        communication, and teamwork skills, helping me grow both personally and
+        professionally.
+      </p>
+
+      <button className="qualification__description-more">Explore More</button>
     </section>
   );
 };

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./projects.css";
 import pic1 from "../../assets/projects/gardenguru.png";
 import pic2 from "../../assets/projects/cstello.png";
+import pic3 from "../../assets/projects/trendhire.png";
 
 const Projects = () => {
   const [toggleState, setToggleState] = useState(0);
@@ -54,7 +55,7 @@ const Projects = () => {
                 className="uil uil-times projects__modal-close"
               ></i>
 
-              <h3 className="projects__modal-title">GardenGuru</h3>
+              <h3 className="projects__modal-title">GardenGURU</h3>
               <p className="projects__modal-description">
                 Here, you'll find a collection of projects that reflect my
                 journey and growth as a Computer Science and Technology student
@@ -174,22 +175,22 @@ const Projects = () => {
         </div>
 
         <div className="projects__content">
-          <img src={pic1}></img>
+          <img src={pic3}></img>
           <div>
             <h3 className="projects__title">
               {/* <i className="uil uil-web-grid projects__icon"></i> */}
-              GardenGURU Web Application
+              Trend Hire Web Application
             </h3>
             <p className="project__des">
-              Garden Guru is a web application designed for gardening
-              enthusiasts to help them make informed decisions about planting
-              based on their local environment. With tailored recommendations,
-              users can explore the best plants to grow in their region and
-              enjoy numerous benefits such as personalized tips, seasonal
-              planting suggestions, and guidance on sustainable gardening
-              practices. Whether you're a beginner or a seasoned gardener,
-              Garden Guru provides the perfect tools to create and maintain a
-              thriving garden.
+              Trend Hire is an advanced job application portal that connects job
+              seekers with employers in a fast and efficient way. The platform
+              offers a smooth, user-friendly interface where users can easily
+              browse job listings, submit applications, and manage their job
+              search process. Job seekers can create detailed profiles, upload
+              resumes, and receive personalized job suggestions based on their
+              skills. For employers, Trend Hire simplifies the recruitment
+              process, allowing them to post job openings, filter candidates,
+              and review applications efficiently. 
             </p>
           </div>
           <div className="button-div">
