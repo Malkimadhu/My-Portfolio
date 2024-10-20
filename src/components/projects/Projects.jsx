@@ -10,6 +10,19 @@ const Projects = () => {
   const toggleTab = (index) => {
     setToggleState(index);
   };
+
+  const [toggleState2, setToggleState2] = useState(0);
+
+  const toggleTab2 = (index) => {
+    setToggleState2(index);
+  };
+
+  const [toggleState3, setToggleState3] = useState(0);
+
+  const toggleTab3 = (index) => {
+    setToggleState3(index);
+  };
+
   return (
     <section className="projects section" id="projects">
       <h2 className="section__title">Projects</h2>
@@ -115,7 +128,7 @@ const Projects = () => {
             </p>
           </div>
           <div className="button-div">
-            <span className="projects__button" onClick={() => toggleTab(1)}>
+            <span className="projects__button" onClick={() => toggleTab2(1)}>
               View More
               <i className="uil uil-arrow-right projects__button-icon"></i>
             </span>
@@ -123,14 +136,14 @@ const Projects = () => {
 
           <div
             className={
-              toggleState === 1
+              toggleState2 === 1
                 ? "projects__modal active-modal"
                 : "projects__modal"
             }
           >
             <div className="projects__modal-content">
               <i
-                onClick={() => toggleTab(0)}
+                onClick={() => toggleTab2(0)}
                 className="uil uil-times projects__modal-close"
               ></i>
 
@@ -194,7 +207,7 @@ const Projects = () => {
             </p>
           </div>
           <div className="button-div">
-            <span className="projects__button" onClick={() => toggleTab(1)}>
+            <span className="projects__button" onClick={() => toggleTab3(1)}>
               View More
               <i className="uil uil-arrow-right projects__button-icon"></i>
             </span>
@@ -202,14 +215,14 @@ const Projects = () => {
 
           <div
             className={
-              toggleState === 1
+              toggleState3 === 1
                 ? "projects__modal active-modal"
                 : "projects__modal"
             }
           >
             <div className="projects__modal-content">
               <i
-                onClick={() => toggleTab(0)}
+                onClick={() => toggleTab3(0)}
                 className="uil uil-times projects__modal-close"
               ></i>
 
