@@ -1,75 +1,169 @@
+// import React from "react";
+// import Progress_bar from "./Progress_bar";
+
+// const Backend = () => {
+//   return (
+//     <div className="skills__content">
+//       <h3 className="skills__title">BackEnd Developer</h3>
+//       <div className="skills__box">
+//         {/* <div className="skills__group">
+//           <div className="skills__data">
+//             <i class="bx bx-badge-check"></i>
+
+//             <div>
+//               <h3 className="skills__name">PHP</h3>
+//               <span className="skills__level">Intermediate</span>
+//             </div>
+//           </div>
+//           <div className="skills__data">
+//             <i class="bx bx-badge-check"></i>
+
+//             <div>
+//               <h3 className="skills__name">Java</h3>
+//               <span className="skills__level">Basic</span>
+//             </div>
+//           </div>
+//           <div className="skills__data">
+//             <i class="bx bx-badge-check"></i>
+
+//             <div>
+//               <h3 className="skills__name">Django</h3>
+//               <span className="skills__level">Basic</span>
+//             </div>
+//           </div>
+//         </div>
+
+//         <div className="skills__group">
+//           <div className="skills__data">
+//             <i class="bx bx-badge-check"></i>
+
+//             <div>
+//               <h3 className="skills__name">MySQL</h3>
+//               <span className="skills__level">Intermediate</span>
+//             </div>
+//           </div>
+//           <div className="skills__data">
+//             <i class="bx bx-badge-check"></i>
+
+//             <div>
+//               <h3 className="skills__name">Firebase</h3>
+//               <span className="skills__level">Basic</span>
+//             </div>
+//           </div>
+//           <div className="skills__data">
+//             <i class="bx bx-badge-check"></i>
+
+//             <div>
+//               <h3 className="skills__name">C</h3>
+//               <span className="skills__level">Basic</span>
+//             </div>
+//           </div>
+//         </div> */}
+//         <div className="App">
+//           <Progress_bar bgcolor="rgba(27, 182, 161, 1)" progress="80" height={20} name={"PHP"}/>
+//           <Progress_bar bgcolor="rgba(27, 182, 161, 1)" progress="70" height={20} name={"Java"}/>
+//           <Progress_bar bgcolor="rgba(27, 182, 161, 1)" progress="50" height={20} name={"Spring boot"}/>
+//           <Progress_bar bgcolor="rgba(27, 182, 161, 1)" progress="85" height={20} name={"SQL"}/>
+//           <Progress_bar bgcolor="rgba(27, 182, 161, 1)" progress="45" height={20} name={"Phython"}/>
+//           <Progress_bar bgcolor="rgba(27, 182, 161, 1)" progress="70" height={20} name={"Django"}/>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Backend;
+
 import React from "react";
-import Progress_bar from "./Progress_bar";
 
-const Backend = () => {
+const BackEnd = () => {
   return (
-    <div className="skills__content">
-      <h3 className="skills__title">BackEnd Developer</h3>
-      <div className="skills__box">
-        {/* <div className="skills__group">
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-
-            <div>
-              <h3 className="skills__name">PHP</h3>
-              <span className="skills__level">Intermediate</span>
-            </div>
-          </div>
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-
-            <div>
-              <h3 className="skills__name">Java</h3>
-              <span className="skills__level">Basic</span>
-            </div>
-          </div>
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-
-            <div>
-              <h3 className="skills__name">Django</h3>
-              <span className="skills__level">Basic</span>
-            </div>
-          </div>
+    <section id="skills" className="skills">
+      <div className="skill-content">
+        <div className="section-heading text-center">
+          <h2>FrontEnd</h2>
         </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6">
+              <div className="single-skill-content">
+                <div className="barWrapper">
+                  <span className="progressText">Adobe Photoshop</span>
+                  <div className="single-progress-txt">
+                    <div className="progress">
+                      <div
+                        className="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="90"
+                        aria-valuemin="10"
+                        aria-valuemax="100"
+                        style={{ width: "90%" }}
+                      ></div>
+                    </div>
+                    <h3>90%</h3>
+                  </div>
+                </div>
 
-        <div className="skills__group">
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+                <div className="barWrapper">
+                  <span className="progressText">Adobe Illustrator</span>
+                  <div className="single-progress-txt">
+                    <div className="progress">
+                      <div
+                        className="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="85"
+                        aria-valuemin="10"
+                        aria-valuemax="100"
+                        style={{ width: "85%" }}
+                      ></div>
+                    </div>
+                    <h3>85%</h3>
+                  </div>
+                </div>
 
-            <div>
-              <h3 className="skills__name">MySQL</h3>
-              <span className="skills__level">Intermediate</span>
+                <div className="barWrapper">
+                  <span className="progressText">Adobe After Effects</span>
+                  <div className="single-progress-txt">
+                    <div className="progress">
+                      <div
+                        className="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="97"
+                        aria-valuemin="10"
+                        aria-valuemax="100"
+                        style={{ width: "97%" }}
+                      ></div>
+                    </div>
+                    <h3>97%</h3>
+                  </div>
+                </div>
+
+                <div className="barWrapper">
+                  <span className="progressText">Sketch</span>
+                  <div className="single-progress-txt">
+                    <div className="progress">
+                      <div
+                        className="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="90"
+                        aria-valuemin="10"
+                        aria-valuemax="100"
+                        style={{ width: "90%" }}
+                      ></div>
+                    </div>
+                    <h3>90%</h3>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
 
-            <div>
-              <h3 className="skills__name">Firebase</h3>
-              <span className="skills__level">Basic</span>
-            </div>
+            
           </div>
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-
-            <div>
-              <h3 className="skills__name">C</h3>
-              <span className="skills__level">Basic</span>
-            </div>
-          </div>
-        </div> */}
-        <div className="App">
-          <Progress_bar bgcolor="rgba(27, 182, 161, 1)" progress="80" height={20} name={"PHP"}/>
-          <Progress_bar bgcolor="rgba(27, 182, 161, 1)" progress="70" height={20} name={"Java"}/>
-          <Progress_bar bgcolor="rgba(27, 182, 161, 1)" progress="50" height={20} name={"Spring boot"}/>
-          <Progress_bar bgcolor="rgba(27, 182, 161, 1)" progress="85" height={20} name={"SQL"}/>
-          <Progress_bar bgcolor="rgba(27, 182, 161, 1)" progress="45" height={20} name={"Phython"}/>
-          <Progress_bar bgcolor="rgba(27, 182, 161, 1)" progress="70" height={20} name={"Django"}/>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
-export default Backend;
+export default BackEnd;
+
