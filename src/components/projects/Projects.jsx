@@ -54,7 +54,6 @@ const Projects = () => {
               <i className="uil uil-arrow-right projects__button-icon"></i>
             </span>
           </div>
-
           <div
             className={
               toggleState === 1
@@ -68,40 +67,54 @@ const Projects = () => {
                 className="uil uil-times projects__modal-close"
               ></i>
 
-              <h3 className="projects__modal-title">GardenGURU</h3>
+              <h3 className="projects__modal-title">
+                GardenGURU Web Application
+              </h3>
               <p className="projects__modal-description">
-                Here, you'll find a collection of projects that reflect my
-                journey and growth as a Computer Science and Technology student
-                at Uva Wellassa University.
+                The Garden Guru project uses HTML, JavaScript, CSS, and
+                Bootstrap for the frontend to create a responsive design. For
+                the backend, we use PHP to manage server-side logic, with MySQL
+                handling data storage and retrieval efficiently.
               </p>
 
               <ul className="projects__modal-projects grid">
                 <li className="projects__modal-project">
                   <i className="uil uil-check-circle projects__modal-icon"></i>
-                  <p className="projects__modal-info">
-                    GardenGuru - Webapplication for encourage gardening
-                  </p>
+                  <p className="projects__modal-info">Plant Suggestions</p>
                 </li>
 
                 <li className="projects__modal-project">
                   <i className="uil uil-check-circle projects__modal-icon"></i>
-                  <p className="projects__modal-info">
-                    CASTELLO - Hotel Management Webapplication
-                  </p>
+                  <p className="projects__modal-info">Communication Forum</p>
                 </li>
 
                 <li className="projects__modal-project">
                   <i className="uil uil-check-circle projects__modal-icon"></i>
-                  <p className="projects__modal-info">
-                    TrendHire - Online job application portal
-                  </p>
+                  <p className="projects__modal-info">Advertisement</p>
                 </li>
 
                 <li className="projects__modal-project">
                   <i className="uil uil-check-circle projects__modal-icon"></i>
-                  <p className="projects__modal-info">
-                    Vsit Sri Lanka - Website for promote tourism
-                  </p>
+                  <p className="projects__modal-info">Plant Selling</p>
+                </li>
+                <li className="projects__modal-project">
+                  <i className="uil uil-check-circle projects__modal-icon"></i>
+                  <p className="projects__modal-info">Reporting</p>
+                </li>
+
+                <li className="projects__modal-project">
+                  <i className="uil uil-check-circle projects__modal-icon"></i>
+                  <p className="projects__modal-info">Payment Gateway</p>
+                </li>
+
+                <li className="projects__modal-project">
+                  <i className="uil uil-check-circle projects__modal-icon"></i>
+                  <p className="projects__modal-info">Newsfeed</p>
+                </li>
+
+                <li className="projects__modal-project">
+                  <i className="uil uil-check-circle projects__modal-icon"></i>
+                  <p className="projects__modal-info">Blog</p>
                 </li>
               </ul>
             </div>
@@ -149,38 +162,42 @@ const Projects = () => {
 
               <h3 className="projects__modal-title">GardenGuru</h3>
               <p className="projects__modal-description">
-                Here, you'll find a collection of projects that reflect my
-                journey and growth as a Computer Science and Technology student
-                at Uva Wellassa University.
+                The Castello Hotel project features a React-based frontend for a
+                dynamic and responsive user experience. On the backend, we use
+                Django to handle server-side operations, while MySQL is used as
+                the database to manage user reservations and other data
+                efficiently.
               </p>
 
               <ul className="projects__modal-projects grid">
                 <li className="projects__modal-project">
                   <i className="uil uil-check-circle projects__modal-icon"></i>
-                  <p className="projects__modal-info">
-                    GardenGuru - Webapplication for encourage gardening
-                  </p>
+                  <p className="projects__modal-info">Room Booking</p>
                 </li>
 
                 <li className="projects__modal-project">
                   <i className="uil uil-check-circle projects__modal-icon"></i>
-                  <p className="projects__modal-info">
-                    CASTELLO - Hotel Management Webapplication
-                  </p>
+                  <p className="projects__modal-info">Restuerent</p>
                 </li>
 
                 <li className="projects__modal-project">
                   <i className="uil uil-check-circle projects__modal-icon"></i>
-                  <p className="projects__modal-info">
-                    TrendHire - Online job application portal
-                  </p>
+                  <p className="projects__modal-info">Rating and Feedback</p>
                 </li>
 
                 <li className="projects__modal-project">
                   <i className="uil uil-check-circle projects__modal-icon"></i>
-                  <p className="projects__modal-info">
-                    Vsit Sri Lanka - Website for promote tourism
-                  </p>
+                  <p className="projects__modal-info">User Registration</p>
+                </li>
+
+                <li className="projects__modal-project">
+                  <i className="uil uil-check-circle projects__modal-icon"></i>
+                  <p className="projects__modal-info">User Registration</p>
+                </li>
+
+                <li className="projects__modal-project">
+                  <i className="uil uil-check-circle projects__modal-icon"></i>
+                  <p className="projects__modal-info">Admin Dashborad</p>
                 </li>
               </ul>
             </div>
@@ -203,7 +220,7 @@ const Projects = () => {
               resumes, and receive personalized job suggestions based on their
               skills. For employers, Trend Hire simplifies the recruitment
               process, allowing them to post job openings, filter candidates,
-              and review applications efficiently. 
+              and review applications efficiently.
             </p>
           </div>
           <div className="button-div">
@@ -226,39 +243,50 @@ const Projects = () => {
                 className="uil uil-times projects__modal-close"
               ></i>
 
-              <h3 className="projects__modal-title">GardenGuru</h3>
+              <h3 className="projects__modal-title">
+                Trend Hire Web Application
+              </h3>
               <p className="projects__modal-description">
-                Here, you'll find a collection of projects that reflect my
-                journey and growth as a Computer Science and Technology student
-                at Uva Wellassa University.
+                The Trend Hire project utilizes HTML, CSS, and JavaScript for
+                the frontend, along with Bootstrap for responsive design. The
+                backend is powered by Java Servlet for handling server-side
+                logic, while MySQL manages data storage efficiently for the
+                online job application portal.
               </p>
 
               <ul className="projects__modal-projects grid">
                 <li className="projects__modal-project">
                   <i className="uil uil-check-circle projects__modal-icon"></i>
                   <p className="projects__modal-info">
-                    GardenGuru - Webapplication for encourage gardening
+                  User registration and profile management
                   </p>
                 </li>
 
                 <li className="projects__modal-project">
                   <i className="uil uil-check-circle projects__modal-icon"></i>
                   <p className="projects__modal-info">
-                    CASTELLO - Hotel Management Webapplication
+                  Job application process
                   </p>
                 </li>
 
                 <li className="projects__modal-project">
                   <i className="uil uil-check-circle projects__modal-icon"></i>
                   <p className="projects__modal-info">
-                    TrendHire - Online job application portal
+                  Company registration and job posting
                   </p>
                 </li>
 
                 <li className="projects__modal-project">
                   <i className="uil uil-check-circle projects__modal-icon"></i>
                   <p className="projects__modal-info">
-                    Vsit Sri Lanka - Website for promote tourism
+                  Administration module for platform oversight
+                  </p>
+                </li>
+
+                <li className="projects__modal-project">
+                  <i className="uil uil-check-circle projects__modal-icon"></i>
+                  <p className="projects__modal-info">
+                  User-friendly interface
                   </p>
                 </li>
               </ul>
