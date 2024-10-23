@@ -29,7 +29,7 @@ const Skills = () => {
       <span className="section__subtitle">My Technical Level</span>
      
       <section className="logo">
-      <p>
+      <p className="skill__paragraph">
         I have skills in both front-end and back-end development. From designing
         user-friendly websites with HTML, CSS, and React to working on
         server-side tasks using PHP, Java, and Django, I’m always improving and

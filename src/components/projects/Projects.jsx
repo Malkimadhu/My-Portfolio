@@ -160,7 +160,7 @@ const Projects = () => {
                 className="uil uil-times projects__modal-close"
               ></i>
 
-              <h3 className="projects__modal-title">GardenGuru</h3>
+              <h3 className="projects__modal-title">Castello Hotel Web Application</h3>
               <p className="projects__modal-description">
                 The Castello Hotel project features a React-based frontend for a
                 dynamic and responsive user experience. On the backend, we use
