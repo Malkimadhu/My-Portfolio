@@ -176,7 +176,7 @@
 /* for large device */
 @media screen and (max-width: 992px) {
   .skills__container {
-    grid-template-columns: max-content;
+    grid-template-columns: 1fr;
     row-gap: 2rem;
   }
 

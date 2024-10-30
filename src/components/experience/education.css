@@ -1,0 +1,157 @@
+.education {
+  background: white;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.education-horizontal-timeline {
+  padding: 30px 0;
+}
+
+.rowe {
+  display: flex;
+  align-items: center;
+}
+
+/*.education-horizontal-timeline*/
+.education-horizontal-timeline .col-sm-4 {
+  padding: 0 2px;
+}
+
+.experience-time {
+  height: 85px;
+}
+
+.single-horizontal-timeline .experience-time h3 {
+  text-transform: capitalize;
+}
+.single-horizontal-timeline .experience-time h3 span {
+  text-transform: lowercase;
+}
+.single-horizontal-timeline .timeline-content h5 {
+  margin: 15px 0;
+}
+.single-horizontal-timeline p {
+  color: #999fb3;
+  max-width: 335px;
+}
+
+/*.timeline-horizontal-border*/
+.timeline-horizontal-border {
+  display: flex;
+  align-items: center;
+  padding: 26px 0 30px;
+}
+.timeline-horizontal-border i {
+  font-size: 15px;
+  color: rgba(27, 182, 161, 1);
+  margin-right: 5px;
+}
+span.single-timeline-horizontal {
+  display: inline-block;
+  background: #b2c1ce;
+  height: 1px;
+  width: 380px;
+}
+span.single-timeline-horizontal.spacial-horizontal-line {
+  width: 88px;
+}
+
+/* BREAKPOINTS */
+/* for large device */
+
+@media screen and (max-width: 992px) {
+    .rowe {
+        display: block;
+        align-items: center;
+      }
+
+      .single-horizontal-timeline{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        display: inline-block;
+      }
+
+      .experience-time {
+        height: 70px;
+      }
+
+      .education {
+        background: white;
+      }
+
+    
+}
+/* for medium device */
+@media screen and (max-width: 768px) {
+    .rowe {
+        display: block;
+        align-items: center;
+      }
+
+      .single-horizontal-timeline{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        display: inline-block;
+      }
+
+      .experience-time {
+        height: 70px;
+      }
+
+      .education {
+        background: white;
+      }
+}
+
+@media screen and (max-width: 576px) {
+    .rowe {
+        display: block;
+        align-items: center;
+      }
+
+      .single-horizontal-timeline{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        display: inline-block;
+      }
+
+      .experience-time {
+        height: 70px;
+      }
+
+      .education {
+        background: white;
+      }
+
+      
+
+}
+/* for small device */
+@media screen and (max-width: 350px) {
+    .rowe {
+        display: block;
+        align-items: center;
+      }
+
+      .single-horizontal-timeline{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        display: inline-block;
+      }
+
+      .experience-time {
+        height: 70px;
+      }
+
+      .education {
+        background: white;
+        padding-left: 1px;
+      }
+}

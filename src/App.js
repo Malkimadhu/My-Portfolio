@@ -10,6 +10,7 @@ import Experience from "./components/experience/Experience";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollUp/ScrollUp";
+import Education from "./components/experience/Education";
 
 const App = () => {
   return (
@@ -21,7 +22,7 @@ const App = () => {
         <About />
         <Skills />
         <Projects />
-        <Experience />
+        <Education/>
         <Contact />
       </main>
       <Footer />

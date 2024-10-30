@@ -134,6 +134,14 @@ const Header = () => {
             </li>
             <li className="nav__item">
               <a
+                href="#education"
+                className={activeSection === "education" ? "nav__link active-link" : "nav__link"}
+              >
+                <i className="uil uil-briefcase-alt nav__icon"></i> Education
+              </a>
+            </li>
+            <li className="nav__item">
+              <a
                 href="#qualification"
                 className={activeSection === "qualification" ? "nav__link active-link" : "nav__link"}
               >
