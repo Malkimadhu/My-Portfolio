@@ -142,10 +142,10 @@ const Header = () => {
             </li>
             <li className="nav__item">
               <a
-                href="#qualification"
-                className={activeSection === "qualification" ? "nav__link active-link" : "nav__link"}
+                href="#experience"
+                className={activeSection === "experience" ? "nav__link active-link" : "nav__link"}
               >
-                <i className="uil uil-scenery nav__icon"></i> Qualification
+                <i className="uil uil-scenery nav__icon"></i> Experience 
               </a>
             </li>
             <li className="nav__item">
