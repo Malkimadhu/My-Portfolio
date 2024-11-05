@@ -73,7 +73,7 @@ const About = () => {
               ></path>
             </svg>
           </a>
-          <Modal />
+          {/* <Modal /> */}
           </div>
         </div>
       </div>

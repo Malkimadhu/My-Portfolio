@@ -1,7 +1,11 @@
 import React from 'react';
 import './education.css';
 
-// TimelineItem Component
+
+
+// Education Component
+const Education = () => {
+    // TimelineItem Component
 const TimelineItem = ({ yearRange, degree, university, location, description, specialLine }) => {
     return (
         <div className="col-sm-4">
@@ -26,8 +30,6 @@ const TimelineItem = ({ yearRange, degree, university, location, description, sp
     );
 };
 
-// Education Component
-const Education = () => {
     return (
         <section id="education" className="education">
             <div className='title-container'>
