@@ -44,21 +44,21 @@ const TimelineItem = ({ yearRange, degree, university, location, description, sp
                             degree="Advancd Level - Physics Stream"
                             university="Kegalu Balika Vidyalaya"
                             location="Kegalla, Sri Lanka"
-                            description="Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident."
+                            description="I completed my A-levels in the Physical Science stream at Kegalu Balika Vidyalaya in 2019, building a solid foundation in science and technology."
                         />
                         <TimelineItem
                             yearRange="2021 - 6 months"
                             degree="Diploma in IT (DiTech)"
                             university="Esoft Metro Campus"
                             location="Kegalla, Sri Lanka"
-                            description="Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident."
+                            description="I completed my Diploma in Information Technology (DITECH) at ESOFT Metro Campus, acquiring essential IT and programming skills."
                         />
                         <TimelineItem
                             yearRange="2021 - 2025"
                             degree="BSc (Hons) in Computer Science and Technology"
                             university="Uva Wellassa University of Sri Lanka"
                             location="Badulla, Sri Lanka"
-                            description="Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident."
+                            description="I am an undergraduate at Uva Wellassa University, pursuing a Computer Science degree and developing my skills in programming."
                         />
                     </div>
                 </div>

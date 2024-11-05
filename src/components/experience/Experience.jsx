@@ -40,10 +40,9 @@ const Experience = () => {
             <div class="timeline-content">
               <h5 class="title">Editorial Member - IEEE CS Chapter UWU</h5>
               <p class="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                efficitur ex sit amet massa scelerisque scelerisque. Aliquam
-                erat volutpat. Aenean interdum finibus efficitur. Praesent
-                dapibus dolor felis, eu ultrices elit molestie.
+                I’m excited to be an editorial member of the UWU IEEE Computer
+                Society Chapter, where I will help create content that showcases
+                our activities and technological advancements.
               </p>
             </div>
           </div>
@@ -60,10 +59,9 @@ const Experience = () => {
             <div class="timeline-content">
               <h5 class="title">Core Member Women in FOSS UWU</h5>
               <p class="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                efficitur ex sit amet massa scelerisque scelerisque. Aliquam
-                erat volutpat. Aenean interdum finibus efficitur. Praesent
-                dapibus dolor felis, eu ultrices elit molestie.
+                Last year, I became a core member of Women in FOSS at Uva
+                Wellassa University, where I promote gender diversity in tech
+                and support women in open-source software development.
               </p>
             </div>
           </div>
@@ -80,10 +78,10 @@ const Experience = () => {
             <div class="timeline-content">
               <h5 class="title">Core Member Computer Society UWU</h5>
               <p class="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                efficitur ex sit amet massa scelerisque scelerisque. Aliquam
-                erat volutpat. Aenean interdum finibus efficitur. Praesent
-                dapibus dolor felis, eu ultrices elit molestie.
+                In 2022, I was appointed as a core member of the Computer
+                Society at Uva Wellassa University, where I contribute to
+                organizing events and initiatives that enhance our members'
+                technical skills.
               </p>
             </div>
           </div>
@@ -100,10 +98,10 @@ const Experience = () => {
             <div class="timeline-content">
               <h5 class="title">Traineer at Bank of Ceylon</h5>
               <p class="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                efficitur ex sit amet massa scelerisque scelerisque. Aliquam
-                erat volutpat. Aenean interdum finibus efficitur. Praesent
-                dapibus dolor felis, eu ultrices elit molestie.
+                In 2022, I worked as a trainee at the Bank of Ceylon (BOC),
+                gaining practical experience in banking operations and customer
+                service while developing valuable skills in finance and
+                communication.
               </p>
             </div>
           </div>

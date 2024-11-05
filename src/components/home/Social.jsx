@@ -21,7 +21,7 @@ const Social = () => {
       </a> */}
 
 <a
-        href="https://github.com/Malkimadhu"
+        href="https://www.linkedin.com/in/malki-madhubhashini-0683b623b/"
         className="home__social-icon"
         target="_blank"
       >
