@@ -3,7 +3,7 @@ import "./about.css";
 import AboutImg from "../../assets/img2.jpg";
 import CV from "../../assets/Malki-CV.pdf"; // Make sure the CV file is in the correct path
 import Infor from "./Infor"; // Assuming this is another component
-import Modal from "./Model"; // Assuming you want to display a modal on clicking "More About Me"
+
 
 const About = () => {
   return (
