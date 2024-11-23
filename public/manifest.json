@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "Malki Madhubhashini Portfolio",
+  "short_name": "Malki Portfolio",
+  "description": "Passionate Computer Science undergraduate with expertise in front-end development and creating delightful user experiences.",
   "icons": [
     {
       "src": "favicon.ico",
