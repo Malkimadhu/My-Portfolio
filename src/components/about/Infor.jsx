@@ -6,13 +6,13 @@ const Infor = () => {
         <div className="about__box">
         <i class='bx bx-award about__icon'></i>
             <h3 className="about__title">Experience</h3>
-            <span className="about__subtitle">1 year</span>
+            <span className="about__subtitle">6 months</span>
         </div>
 
         <div className="about__box">
         <i class='bx bx-briefcase-alt about__icon'></i>
-            <h3 className="about__title">Completed</h3>
-            <span className="about__subtitle">4 Projects</span>
+            <h3 className="about__title">Skilled</h3>
+            <span className="about__subtitle">Both Automation and manual</span>
         </div>
 
         <div className="about__box">

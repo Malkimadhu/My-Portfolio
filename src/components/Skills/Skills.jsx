@@ -27,14 +27,14 @@ const Skills = () => {
     <section className="Skills section" id="Skills">
       <h2 className="section__title">Skills</h2>
       <span className="section__subtitle">My Technical Level</span>
-     
+
       <section className="logo">
-      <p className="skill__paragraph">
-        I have skills in both front-end and back-end development. From designing
-        user-friendly websites with HTML, CSS, and React to working on
-        server-side tasks using PHP, Java, and Django, I’m always improving and
-        learning new things to build better web solutions.
-      </p>
+        <p className="skill__paragraph">
+          I have experience in both manual and automated testing, with the
+          ability to work on front-end and back-end quality assurance. I focus
+          on designing test cases, executing them effectively, and identifying
+          issues to help deliver reliable and user-friendly software.
+        </p>
         <Logo name={html} logo="HTML5 Logo" width={100} height={100} />
         <Logo name={css} logo="css Logo" width={100} height={100} />
         <Logo name={react} logo="React Logo" width={100} height={100} />
