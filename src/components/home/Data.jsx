@@ -55,12 +55,12 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">Fullstack Developer</h3>
+      <h3 className="home__subtitle">Quality Assuarance Engineer</h3>
       <p className="home__description">
-        I'm a Computer Science student who loves creating complete web
-        applications—from designing user-friendly interfaces to building
-        powerful back-end systems. I enjoy writing clean, efficient code that
-        brings ideas to life!
+        As a Computer Science student specializing in Quality Assurance, I focus
+        on improving software reliability through both manual and automated
+        testing. I enjoy exploring different testing approaches to make sure
+        applications perform smoothly and provide the best user experience.
       </p>
 
       <a
