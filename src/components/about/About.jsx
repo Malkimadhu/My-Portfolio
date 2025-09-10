@@ -1,6 +1,6 @@
 // import React from "react";
 import "./about.css";
-import AboutImg from "../../assets/img2.jpg";
+import AboutImg from "../../assets/img2.jpeg";
 import CV from "../../assets/Malki-CV.pdf"; // Make sure the CV file is in the correct path
 import Infor from "./Infor"; // Assuming this is another component
 
